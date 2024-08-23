@@ -1,0 +1,15 @@
+{
+  "name": "leaflet-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vietpalm.js",
+  "scripts": {
+    "build": "browserify vietpalm.js -o bundle.js",
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
